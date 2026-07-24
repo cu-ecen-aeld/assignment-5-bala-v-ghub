@@ -5,7 +5,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_CHARDRIVER_VERSION = 73054a9e36e258cb375fdb34a060f4d753d4043e
+AESD_CHARDRIVER_VERSION = ef95cd97bd0d4d119b2ad0fb71111b811b946ecb
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
@@ -28,3 +28,5 @@ endef
 
 $(eval $(kernel-module))
 $(eval $(generic-package))
+
+
